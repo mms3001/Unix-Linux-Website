@@ -1,6 +1,8 @@
 /** FONT(S) **/
 @import url("https://fonts.googleapis.com/css?family=EB+Garamond:400,500|Roboto:400,700");
 
+@import url("https://use.typekit.net/zpn1yax.css");
+
 /** LINKED CSS FILES **/
 @import "./navbar.css";
 @import "./buttons.css";
@@ -43,16 +45,19 @@ h2 {
 
 h1 {
   font-size: 2.325rem;
-  font: Georgia, Serif;
+  font-family: "adaptive-mono", monospace;
   text-transform: uppercase;
   letter-spacing: 3px;
   border-bottom: 1.8px solid var(--palette-border-clr);
   padding: 1rem 0;
+  color:var(--palette-main-clr);/*NOTE: changed colors */
+  background-color: var(--palette-bg-light);
+  
 }
 
 h2,
 h3 {
-  font-family: "EB Garamond", serif;
+  font-family: "adaptive-mono", monospace;
   text-align: start;
 }
 
@@ -90,6 +95,10 @@ p {
   line-height: 2em;
   text-align: start;
   background-color: var(--palette-bg-light);
+  margin: 20px;
+  padding: 20px;
+
+  text-indent: 20px;
 }
 figure {
   padding: 0;
@@ -228,3 +237,33 @@ li a {
 #results {
   font: 44px Georgia, Serif;
 }
+
+/* not implemented/finished yet
+.container ol {
+  counter-reset: my-counter;
+  list-style-type: none;
+}
+.container li {
+  display: block;
+  counter-increment: my-counter;
+  margin: 20px;
+  display: flex;
+  /* add display flex */
+ /* align-items: flex-start;*/
+  /* center items vertically */
+
+
+/*}
+
+.container li:before {
+
+  content: "[" counter(my-counter) "]";
+  font-family: "adaptive-mono", monospace;
+  font-weight: 700;
+  padding: 2px;
+
+
+  margin-right: 10px;
+  background-color: white;
+  color: #011fde;
+}*/

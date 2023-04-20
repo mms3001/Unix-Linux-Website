@@ -1,7 +1,7 @@
 <?php
 $path = "./";
 $page = "Unix";
-include $path."assets/inc/header.php";
+include $path . "assets/inc/header.php";
 ?>
 <div id="top" class="container">
     <h1>UNIX</h1>
@@ -28,7 +28,8 @@ include $path."assets/inc/header.php";
     <h2>How to have good user experience</h2>
     <p>A good user experience on a website is critical for retaining visitors, encouraging them to return, and
         ultimately achieving your business objectives. Here are some pointers to help you create a positive user
-        experience on your website:</p>
+        experience on your website: </p>
+   
     <ul>
         <li>Make sure your website is simple to use. Use clear and concise menus, and ensure that visitors can easily
             find the information they seek.</li>
@@ -43,8 +44,10 @@ include $path."assets/inc/header.php";
         <li>Use calls-to-action (CTAs) to direct site visitors. Provide clear and concise CTAs that encourage visitors
             to take action, such as subscribing to a newsletter, purchasing something, or contacting you.</li>
         <li>Run regular site tests. Track user behavior with analytics tools and make changes to your site as needed to
-            improve the user experience.</li>
+            improve the user expferience.</li>
     </ul>
+    
+
     <p>By implementing these suggestions, you can create a positive user experience on your website that will keep
         visitors engaged, encourage them to return, and ultimately help you achieve your business objectives.</p>
     <h2>Security Risks</h2>
@@ -93,5 +96,5 @@ include $path."assets/inc/header.php";
     </p>
 </div>
 <?php
-include $path."assets/inc/footer.php";
+include $path . "assets/inc/footer.php";
 ?>

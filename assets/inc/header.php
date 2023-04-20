@@ -4,13 +4,16 @@
 <head>
     <title>Unix/Linux</title>
     <link rel="stylesheet" type="text/css" href="assets/css/index.css" />
+    <link rel="stylesheet" href="https://use.typekit.net/zpn1yax.css">
     <script type="text/javascript" src="assets/script/index.js"></script>
 </head>
 
 <body>
     <nav id="nav">
         <a href="#" class="logo">
+          
             <img src="./assets/img/linux.svg" alt="logo" />
+            <span class="siteTitle">Unix/Linux: The Essential Guide</span>
         </a>
         <input id="menu-toggle" type="checkbox" />
         <label for="menu-toggle" class="menu-button-container">

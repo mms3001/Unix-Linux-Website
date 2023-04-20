@@ -7,6 +7,7 @@ nav {
   font-size: 1.1em;
   background-color: var(--palette-bg-light);
   border-bottom: 1.8px solid var(--palette-border-clr);
+  font-family: "adaptive-mono", monospace;/*NOTE: changed fonts*/
 }
 nav .logo {
   display: flex;
@@ -16,6 +17,14 @@ nav .logo {
 nav .logo img {
   width: 2.5em;
   margin-left: 15px;
+}
+/*NOTE: Web Site Title style*/
+.siteTitle{
+  color: var(--palette-main-clr);
+  font-weight: bold;
+  margin-left: 15px;
+  position: relative;
+  top: 0;/*NOTE: seems to center vertically*/
 }
 
 nav .menu {
@@ -27,6 +36,7 @@ nav .menu {
   align-items: center;
   text-align: center;
   height: 4rem;
+  font-family: "adaptive-mono", monospace;
 }
 nav .menu li {
   position: relative;
